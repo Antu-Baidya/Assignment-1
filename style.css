@@ -4,7 +4,6 @@ nav {
   justify-content: space-around;
   align-items: center;
 }
-
 nav li a {
   text-decoration: none;
   color: #000000;
@@ -40,6 +39,8 @@ nav .nav-list {
   padding: 115.5px 120px 179.5px 120px;
 }
 #banner .btn2 {
+  display: inline-flex;
+  gap: 6px;
   color: #30b868;
   padding: 8px 12px 8px;
   border: none;
@@ -133,6 +134,7 @@ nav .nav-list {
   font-weight: 400;
   line-height: 20px;
 }
+
 .card-section {
   max-width: 1360px;
   display: flex;
@@ -165,11 +167,9 @@ nav .nav-list {
   color: #627382;
   margin: 16px 24px 55px 24px;
 }
-
 #brain .brain-section {
   padding: 120px;
   display: flex;
-  /* text-align: center; */
   align-items: center;
   gap: 60px;
 }
@@ -179,7 +179,6 @@ nav .nav-list {
   height: 600px;
   border-radius: 12px;
 }
-
 .brain-section .right-hand h2 {
   color: #30b868;
   font-weight: 500;
@@ -187,7 +186,6 @@ nav .nav-list {
   line-height: 20px;
   margin-bottom: 16px;
 }
-
 .brain-section .right-hand h1 {
   color: #001931;
   font-weight: 700;
@@ -202,7 +200,6 @@ nav .nav-list {
   font-weight: 400;
   margin-bottom: 40px;
 }
-
 .brain-section .right-hand .suggetions {
   color: #001931;
   font-weight: 500;
@@ -217,7 +214,6 @@ nav .nav-list {
   display: flex;
   gap: 6px;
 }
-
 #early-section {
   align-items: center;
 }
@@ -246,7 +242,6 @@ nav .nav-list {
   margin-bottom: 24px;
   font-family: "Roboto", sans-serif;
 }
-
 #early-section .early-box .buttom-section .btn5 {
   background-color: #469165;
   color: #ffffff;
@@ -260,10 +255,50 @@ nav .nav-list {
 #early-section .early-box .buttom-section .btn5:hover {
   background-color: yellow;
 }
-
 #early-section .early-box .buttom-section p {
   color: #627382;
   font-size: 16px;
   font-weight: 400;
   line-height: 20px;
+}
+
+footer {
+  max-width: 1660px;
+  background-color: #001931;
+  text-align: center;
+}
+.footer .footer-section {
+  display: flex;
+  justify-content: space-between;
+  padding: 120px 120px 80px 120px;
+  align-items: center;
+}
+.footer .footer-section .footer-h2 {
+  color: #ffffff;
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 28px;
+}
+.footer .footer-section .footer-img {
+  display: flex;
+  width: 20px;
+  height: 20px;
+  gap: 16px;
+  background-color: #ffffff;
+}
+.footer .footer-end {
+  max-width: 1360px;
+  margin: 0 auto;
+}
+.footer .footer-end hr {
+  color: #e5e7eb;
+  margin-bottom: 30px;
+}
+.footer .footer-end p {
+  color: #fafafa;
+  font-size: 16px;
+  font-weight: 400;
+  font-family: "Roboto", sans-serif;
+  line-height: 24px;
+  padding-bottom: 30px;
 }
