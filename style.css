@@ -180,8 +180,6 @@ nav .nav-list {
   border-radius: 12px;
 }
 
-#brain .brain-section .right-hand {
-}
 .brain-section .right-hand h2 {
   color: #30b868;
   font-weight: 500;
@@ -218,4 +216,54 @@ nav .nav-list {
   font-weight: 500;
   display: flex;
   gap: 6px;
+}
+
+#early-section {
+  align-items: center;
+}
+#early-section .early-box {
+  background-color: #f7f6f2;
+  max-width: 1360px;
+  height: 384px;
+  margin: 2px 120px 120px 120px;
+  text-align: center;
+}
+#early-section .early-box .head-section {
+  padding: 80px 40px 0px 40px;
+}
+#early-section .early-box .head-section h1 {
+  color: #001931;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 100%;
+}
+
+#early-section .early-box .head-section p {
+  color: #627382;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  margin-bottom: 24px;
+  font-family: "Roboto", sans-serif;
+}
+
+#early-section .early-box .buttom-section .btn5 {
+  background-color: #469165;
+  color: #ffffff;
+  padding: 16.5px 10px 16.5px 16px;
+  display: inline-flex;
+  gap: 10px;
+  align-items: center;
+  border-radius: 5px;
+  border: none;
+}
+#early-section .early-box .buttom-section .btn5:hover {
+  background-color: yellow;
+}
+
+#early-section .early-box .buttom-section p {
+  color: #627382;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 20px;
 }
