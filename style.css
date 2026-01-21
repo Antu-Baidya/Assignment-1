@@ -114,12 +114,10 @@ nav .nav-list {
 }
 #note {
   max-width: 1600px;
-  border: 1px solid red;
   text-align: center;
 }
 #note .note-heading {
   max-width: 1360px;
-  border: 1px solid red;
   margin: 0px 120px 44px 120px;
 }
 #note .note-heading h1 {
@@ -166,4 +164,58 @@ nav .nav-list {
 .card-section .card .card-text {
   color: #627382;
   margin: 16px 24px 55px 24px;
+}
+
+#brain .brain-section {
+  padding: 120px;
+  display: flex;
+  /* text-align: center; */
+  align-items: center;
+  gap: 60px;
+}
+
+#brain .brain-section .img-container {
+  width: 600px;
+  height: 600px;
+  border-radius: 12px;
+}
+
+#brain .brain-section .right-hand {
+}
+.brain-section .right-hand h2 {
+  color: #30b868;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 20px;
+  margin-bottom: 16px;
+}
+
+.brain-section .right-hand h1 {
+  color: #001931;
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 100%;
+  margin-bottom: 16px;
+}
+.brain-section .right-hand p {
+  color: #627382;
+  font-size: 16px;
+  line-height: 20px;
+  font-weight: 400;
+  margin-bottom: 40px;
+}
+
+.brain-section .right-hand .suggetions {
+  color: #001931;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 20px;
+}
+.right-hand .suggetions h4 {
+  color: #001931;
+  font-size: 16px;
+  line-height: 20px;
+  font-weight: 500;
+  display: flex;
+  gap: 6px;
 }
